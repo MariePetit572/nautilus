@@ -1,0 +1,128 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+/*HEADER INDEX*/
+.container-fluid{
+    padding: 0;
+}
+.row{
+    margin:0
+}
+.accueil, nav, footer{
+    background-color: #172a3a;
+}
+
+nav {
+    font-family : 'Montserrat Alternates';
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.nav-link:hover {
+    color:#EFB0A1 !important;
+}
+
+.nav-link{
+    color:white !important;
+}
+
+
+/* FIN HEADER INDEX*/
+/* DEBUT ACCUEIL*/
+
+.accueil {
+    font-family:'Montserrat';
+}
+
+.accueil h1 {
+    text-transform: uppercase;
+    font-size :2.5em;
+    
+}
+
+.TextWebdesign p {
+    text-align: justify;
+    font-family:'Montserrat';
+}
+
+.TextWebdesign span {
+    font-style: italic ;
+}
+/* FIN ACCUEIL*/
+/*DEBUT PRESTATIONS*/
+.mainPrestation{
+    background-color: #004346;
+    
+}
+form{
+    background-color: #172A3A;
+}
+.button{
+    border: none;
+    background-color: #09BC8A;
+    color: #FFFFFC;
+}
+.prestations h2, .prestations h3, .prestations p, .TitreForm {
+    color: #FFFFFC ;
+}
+.titrepresta{
+    font-family:'Montserrat Alternates', sans-serif; 
+}
+.textpresta{
+    font-family:'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+/*FIN PRESTATIONS*/
+/*DEBUT EQUIPE*/
+    .bodyequipage{
+        background-color: #004346;
+        color: #fffffc;
+    }
+    .titre3{
+        font-family:'Montserrat Alternates', sans-serif; 
+    }
+    .titre3 h2{
+        color:#fffffc;
+    }
+    .titre3 p{
+        color:#09bc8a;
+    }
+    .card{
+        background-color:#172a3a;
+        opacity: 50%;
+    }
+    .btn {
+        color: #fffffc;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight:700   
+    }
+    .btn:hover{
+        color: #EFB0A1 !important ;
+    }
+    .textbio1 {
+        color:  #fffffc;
+        font-family: 'montserrat', sans-serif;
+    }
+    .textbio2{
+        color:  #fffffc;
+        font-family: 'montserrat', sans-serif;
+        text-align:justify;
+    } 
+    .prenom{
+        color: #fffffc;
+        font-family: 'Montserrat Alternates', sans-serif;
+    } 
+    /*FIN EQUIPE*/
+  /* FOOTER INDEX*/
+
+    footer .fab {
+    color : white;
+    font-size : 3em;
+    }
+/* FIN FOTTER INDEX*/
+    
